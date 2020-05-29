@@ -1,6 +1,6 @@
 package MediatorAndFactory;
 import java.util.ArrayList;
-public class ChatRoom {
+public class Chat {
 	
 	private static ArrayList<User> users = new ArrayList();
 	
