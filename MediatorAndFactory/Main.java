@@ -10,9 +10,9 @@ public class Main {
 		User thirdUser = factory.createUser("Georgi");
 		User anotherUser = factory.createUser("Ivanka");
 
-		ChatRoom.AddUser(firstUser);
-		ChatRoom.AddUser(secondUser);
-		ChatRoom.AddUser(thirdUser);
+		Chat.AddUser(firstUser);
+		Chat.AddUser(secondUser);
+		Chat.AddUser(thirdUser);
 		
 		firstUser.sendMessage("My name is Stoqn!");
 		secondUser.sendMessage("Hi Stoqn!");
