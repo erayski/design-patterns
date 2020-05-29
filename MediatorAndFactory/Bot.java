@@ -5,6 +5,6 @@ public class Bot {
 		System.out.println("Bot: cat is a forbidden word!");
 	}
 	public void removeUser(User user) {
-		ChatRoom.RemoveUser(user);
+		Chat.RemoveUser(user);
 	}
 }
