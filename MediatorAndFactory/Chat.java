@@ -9,7 +9,7 @@ public class Chat {
 	
 	public static void showMessage(User user, String message){
 		if(!users.contains(user)){
-			System.out.println("System: "+ user.getName()+ " join  first!");
+			
 			return;
 		}	
 		
