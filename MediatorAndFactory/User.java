@@ -16,6 +16,6 @@ public class User {
 	   }
 
 	   public void sendMessage(String message){
-	      ChatRoom.showMessage(this,message);
+	      Chat.showMessage(this,message);
 	   }
 }
