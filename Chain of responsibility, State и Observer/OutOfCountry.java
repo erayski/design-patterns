@@ -1,10 +1,6 @@
 
 public class OutOfCountry implements Chain{
 
-
-
-	 
-
     private  Chain nextInChain;   
   
     public void setNextChain(Chain nextChain) {       
